@@ -2,7 +2,6 @@ import styles from './Navbar.module.css'
 import { FaInstagram } from "react-icons/fa6"
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import Nav from 'react-bootstrap/Nav'
-import NavLink from 'react-bootstrap/esm/NavLink';
 
 function Navbar(){
     return(
