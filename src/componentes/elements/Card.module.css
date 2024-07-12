@@ -1,7 +1,9 @@
 .card img{
     width: 550px;
+    height: 350px;
     border-radius: 15px;
     cursor: pointer;
+    margin: 25px;
 } 
 
 .card img:hover{
@@ -12,7 +14,7 @@
 
 .card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 40px 10% 40px 10%;
 }
 
@@ -24,5 +26,5 @@
     box-shadow: 10px 10px 10px rgba(0,0,0.25,0.50);
     text-align: left;
     font-size: 32px;
-    line-height: 16px;
+    line-height: 32px;
 }

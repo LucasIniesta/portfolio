@@ -1,17 +1,15 @@
 import styles from './Card.module.css'
 import ButtonA from './ButtonA'
- 
-import dncWeather from '../../Images/projetos/dncWeather.jpg'
 
-function Card(){
+function Card({image, title, tech, description, repo, site}){
     return(
         <div className={styles.card}>
-            <img src={dncWeather}/>
+            <a href={site} target='_blank'><img src={image}/></a> 
             <section>
-                <h3>Título</h3>
-                <p><strong>Tecnologias: </strong> tecs</p>
-                <p>Descrição</p>
-                <ButtonA text='Acesse o repositório'/>
+                <h3>{title}</h3>
+                <p><strong>Tecnologias: </strong> {tech}</p>
+                <p>{description}</p>
+                <ButtonA link={repo} text='Acesse o repositório'/>
             </section>
         </div>
     )

@@ -5,16 +5,13 @@ function Presentation(){
     return(
         <div className={styles.presentation} id="Presentation">
             <h2>Bem-vindo ao meu Portfólio</h2>
-            <h1>Olá, eu sou Lucas - Desenvolvedor Full Stack</h1>
+            <h1>Olá, eu sou Lucas Iniesta Simões</h1>
             <p>
-                Como desenvolvedor Full Stack, possuo experiência abrangente em várias tecnologias essenciais para a construção de aplicações web modernas. <br/>
-                Minha expertise inclui HTML, CSS e JavaScript, ferramentas fundamentais para criar interfaces de usuário interativas e responsivas. <br/>
-                Além disso, sou proficiente em React, um poderoso framework que utilizo para desenvolver aplicações dinâmicas e escaláveis. <br/>
-                Tenho também habilidades sólidas no consumo de APIs, o que me permite integrar funcionalidades externas de forma eficiente e segura, <br/>
-                aprimorando a experiência do usuário e a funcionalidade dos meus projetos. Estou sempre em busca de novos desafios e oportunidades <br/>
-                para aplicar e expandir minhas habilidades, contribuindo para projetos inovadores e impactantes.
+            Sou um <strong>Desenvolvedor Front-End</strong> com experiência em <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>  e <strong>React</strong>. Minhas habilidades incluem a criação de interfaces <br/> 
+            de usuário interativas e responsivas, além do consumo eficiente de APIs para integrar funcionalidades externas. Estou sempre em busca <br/> 
+            de novos desafios para aplicar e expandir minhas habilidades em projetos inovadores.
             </p>
-            <ButtonA text='Conecte-se comigo!!' link='https://github.com/LucasIniesta'/>
+            <ButtonA text='Conecte-se comigo!!' link='https://www.linkedin.com/in/lucas-iniesta-simoes/' target="_blank"/>
         </div>
     )
 }
