@@ -31,7 +31,7 @@ function Projects(){
                 tech='HTML, CSS, JavaScript e React'
                 description='Um portfolio interativo apresentando o que sei fazer'
                 repo='https://github.com/LucasIniesta/portfolio'
-                site=''
+                site='https://portfolio-9u34ohpho-lucas-iniesta-simoes-projects.vercel.app/'
             />
             <ButtonA link='https://github.com/LucasIniesta?tab=repositories' target='_blank' text='Ver repositório completo'/>  
         </div>
